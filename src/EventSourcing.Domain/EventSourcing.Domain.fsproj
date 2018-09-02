@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="AggregateRoot.fs" />
+        <Compile Include="Account\Events.fs" />
+        <Compile Include="Account\Commands.fs" />
+        <Compile Include="Account\Account.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="5.1.0" />
+    </ItemGroup>
+
+</Project>

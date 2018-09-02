@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Autofac" Version="4.8.1" />
+      <PackageReference Include="CassandraCSharpDriver" Version="3.6.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\EventSourcing.Domain\EventSourcing.Domain.fsproj" />
+      <ProjectReference Include="..\EventSourcing.Infrastructure.Common\EventSourcing.Infrastructure.Common.csproj" />
+    </ItemGroup>
+
+</Project>
